@@ -1,0 +1,27 @@
+.glitter-text {
+  font-family: 'Pacifico', cursive; /* Fancy font */
+  color: #0074cc; /* Classic Blue */
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.glitter-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent); /* Shimmer effect */
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
