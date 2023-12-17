@@ -14,11 +14,11 @@ const projects = [
     link: "https://flight-simulator-pro.vercel.app/",
   },
   {
-    name: "Caching I/O",
-    description: "Implemented a single slot cache to reduce the number of system calls (i.e., buffered read, write, flush) to optimize database system performance to within 5x of stdio's runtime performance.",
-    image: "/cachio.png",
-    github: "https://github.com/melvinhe/C-projects/tree/main/cachio",
-    link: "https://github.com/melvinhe/C-projects/tree/main/cachio",
+    name: "Onion Routing",
+    description: "Researched, designed, and implemented onion-layered ACN system with AES encryption and Diffie-Hellman key exchange deployable on Docker machines.",
+    image: "/or-acn.png",
+    github: "https://github.com/melvinhe/onion-routing-acn/tree/main",
+    link: "https://onion-routing-acn.s3.amazonaws.com/melvinhe.pdf",
   },
   {
     name: "IP-TCP",
@@ -27,6 +27,13 @@ const projects = [
     image: "/ip-tcp.png",
     github: "https://github.com/melvinhe/ip-tcp",
     link: "https://github.com/melvinhe/ip-tcp",
+  },
+  {
+    name: "Caching I/O",
+    description: "Implemented a single slot cache to reduce the number of system calls (i.e., buffered read, write, flush) to optimize database system performance to within 5x of stdio's runtime performance.",
+    image: "/cachio.png",
+    github: "https://github.com/melvinhe/C-projects/tree/main/cachio",
+    link: "https://github.com/melvinhe/C-projects/tree/main/cachio",
   },
 ]
 
