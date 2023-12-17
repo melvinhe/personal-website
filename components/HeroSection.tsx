@@ -49,7 +49,7 @@ const HeroSection = () => {
             {typedText}
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl animate-fadeIn animation-delay-6">
-            Thanks for stopping by. 👋
+            Welcome to my website. Thanks for stopping by. 👋
           </p>
           <Link
             to="projects"
