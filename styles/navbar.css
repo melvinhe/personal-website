@@ -13,7 +13,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent); /* Shimmer effect */
+  /*background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent); /* Shimmer effect */
   animation: shimmer 2s linear infinite;
 }
 

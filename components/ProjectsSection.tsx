@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Flight Simulator Pro",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Three.js and React airplane model flight simulator with infinite mountainous terrain & crash effects!",
+    image: "/flight_sim.png",
+    github: "https://github.com/melvinhe/flight-simulator-pro",
+    link: "https://flight-simulator-pro.vercel.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Caching I/O",
+    description: "Implemented a single slot cache to reduce the number of system calls (i.e., buffered read, write, flush) to optimize database system performance to within 5x of stdio's runtime performance.",
+    image: "/cachio.png",
+    github: "https://github.com/melvinhe/C-projects/tree/main/cachio",
+    link: "https://github.com/melvinhe/C-projects/tree/main/cachio",
   },
   {
-    name: "Kator Family Photos",
+    name: "IP-TCP",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "RFC-compliant Internet Protocol and Transmission Control Protocol with circular buffers, retransmission queues, and connection teardown. Built from scratch in GoLang, Lua, and Python.",
+    image: "/ip-tcp.png",
+    github: "https://github.com/melvinhe/ip-tcp",
+    link: "https://github.com/melvinhe/ip-tcp",
   },
 ]
 

@@ -3,7 +3,7 @@ import { TiArrowForward } from "react-icons/ti"
 import Link from "next/link"
 
 const skills = [
-  { skill: "Golang" },
+  { skill: "GoLang" },
   { skill: "C/C++" },
   { skill: "TypeScript" },
   { skill: "Python" },
