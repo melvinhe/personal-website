@@ -15,8 +15,8 @@ const backgroundInfo = [
         name: "Fidelity Investments",
         duration: "June 2023 - August 2023",
         description: [
-            "I worked on an agile development team to migrate Fidelity Institutional's JSP-based website to Angular with Sitecore as a CMS, contributing signficantly to ETF bricklet design, API development, Jenkins & Terraform CI/CD pipelines, cloud architecture, and unit/integration testing.",
-            "Through rotational roles, I also helped with SwiftUI blockchain app development in Fidelity Labs (Fidelity's startup incubator) as well as quantitative equity trading and UI/UX platform design with Fidelity Capital Markets (Fidelity's innovative trading arm)."
+            "I worked on an agile development team to migrate Fidelity Institutional's JSP-based website to Angular with Sitecore as a CMS, contributing signficantly to ETF bricklet design, RESTful API development, Jenkins & Terraform CI/CD pipelines, cloud architecture, and unit/integration testing.",
+            "Through rotational roles, I also developed APIs for SwiftUI blockchain app for Fidelity Labs (Fidelity's startup incubator) as well as assisted with quantitative equity trading and UI/UX platform design with Fidelity Capital Markets (Fidelity's innovative trading arm)."
         ],
         link: "https://institutional.fidelity.com/",
     },
@@ -25,11 +25,28 @@ const backgroundInfo = [
         name: "ThermoFisher Scientific",
         duration: "July 2021 - Aug 2022",
         description: [
-            "I worked on a devops team on a software data visualization solution for a Raman Spectrometer chemical instrument device, contributing with launching AWS cloud resources, configuring Github Actions CI/CD pipelines, and designing a unit/manual testing framework using Model XML/SPC chemical simulations.",
+            "I worked on a DevOps team on a software data visualization solution for a Raman Spectrometer chemical instrument device, contributing with launching AWS cloud resources, configuring Github Actions CI/CD pipelines, and designing a unit/manual testing framework using Model XML/SPC chemical simulations.",
             "I designed and built a frontend responsive scheduling interface from scratch for the AerosolSense Sampler (an in-air COVID/pathogen detector) using BootstrapUI framework and used a BeagleBone, C++, and electrical circuits to integrate the machine's hardware components with its scheduling microservice.",
         ],
         link: "https://www.thermofisher.com/"
 
+    }, 
+    {
+        position: "Head Teaching Assistant (HTA)",
+        name: "Brown CS",
+        duration: "Dec 2022 - Present",
+        description: [
+            "Teaching and education has always been one of my passions since high school. Not only does lecturing at Brown and working closely with passionate professors allow me to better understand algorithmic, technical, and broader concepts, I find immense joy in guiding and empowering students to unlock their potential and achieve their academic goals.",
+            "At Brown, I've served as a UTA, STA, and HTA in courses like CSCI 1430 (Computer Vision) and CSCI 1410 (Artificial Intelligence) as well as Sunlab Consultant where I help Brown CS department with their department machines and debug Operating Systems for grad students.",
+            <span>
+                AI lecture series I built and presented: 
+                <a href='https://melvinhe.s3.amazonaws.com/CSCI1410_SRC_Lecture_1.mp4' target='_blank' style={{ color: '#39BDF8', fontWeight: 'bold' }}> Social and Ethical Issues in AI</a>
+                &nbsp;&amp;&nbsp;
+                <a href='https://melvinhe.s3.amazonaws.com/CSCI1410_SRC_Lecture_2.mp4' target='_blank' style={{ color: '#39BDF8', fontWeight: 'bold' }}>Ethical Dilemmas in AI</a>
+            </span>,
+            
+        ],
+        link: "https://alumni-friends.brown.edu/news/2023-06-21/computer-science/"
     }, 
     {
         position: "UX Product Design Solutions Lead",
@@ -41,35 +58,27 @@ const backgroundInfo = [
             "Presented at Develop For Good’s 2023 summit, winning both most impactful & most creative awards. Work has directly impacted around 1,000 children since launch.",
         ], 
         link: "https://www.joinjara.com/"
-    }, {
-        position: "Head Teaching Assistant (HTA)",
-        name: "Brown CS",
-        duration: "Jan 2023 - Present",
-        description: [
-            "Teaching has always been one of my passions ",
-
-        ],
-        link: "https://alumni-friends.brown.edu/news/2023-06-21/computer-science/"
     }, 
     {
-        position: "Developer Team",
+        position: "Software Engineer",
         name: "Hack@Brown",
         duration: "June 2023 - Present",
         description: [
-            "Helped develop interactive graphics, create Docker tutorials, and deploy site",
+            "As a software engineer for Hack@Brown, I developed interactive graphics in Three.js, Next.js, TypeScript, and React, creating moving planets and rocketship animations, and ultimately deploying the website on Netlify for thousands of students in college.",
+            "I also created Docker tutorials for students to learn containers, coordinated with design team through Figma mockups and Trello boards, and helped mentor students in building some really cool applications in just 24 hours.",
         ], 
         link: "https://2024.hackatbrown.org/"
     },
     {
-        position: "",
-        name: "Full Stack @ Brown",
+        position: "Program Organizer",
+        name: "igniteCS",
         duration: "Feb 2022 - Present",
         description: [
-            "I love building projects.",
+            "As a program organizer for Google's IgniteCS chapter in Providence, I led, taught, and organized computer science learning events for elementary schools in Rhode Island. Through this program, I mentored students in low income communities with concepts like algorithms, robotics, artificial intelligence, and computer literacy at an early age.",
+            "As a Product Manager at Full Stack @ Brown, I have also led an agile team of 15+ developers and designers to developing applications, content, designs, and websites specifically for IgniteCS.",
         ],
-        link: ""
+        link: "https://www.brown.edu/news/2023-05-01/ignitecs"
     }
-
 ]
 
 

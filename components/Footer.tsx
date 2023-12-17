@@ -24,7 +24,7 @@ const Footer = () => {
             aria-label="My GitHub"
           >
             {" "}
-            <span className="rounded-full bg-blue-500 px-2 py-1 text-white">
+            <span className="rounded-full bg-blue-600 px-2 py-1 text-white">
               Melvin He
             </span>
           </a>{" "}
