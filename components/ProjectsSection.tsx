@@ -30,6 +30,14 @@ const projects = [
     link: "https://github.com/melvinhe/ip-tcp/blob/main/README.md",
   },
   {
+    name: "Jara Unit",
+    description:
+      "IoT-enabled, crank & solar-powered educational device built for children globally in low-income regions like Nepal. Won Develop For Good 2023 Summit's Most Creative & Most Impactful award.",
+    image: "/jara.gif",
+    github: "https://www.developforgood.org/",
+    link: "https://www.joinjara.com/",
+  },
+  {
     name: "Realtime Raytracer",
     description:
       "Realtime OpenGL graphics pipeline and raytracing engine in C++, built with OOP design to handle complex scene parsing, phong illumination, reflection, point lights, spot lights, attenuation, texture mapping, FBOs, and camera interactability.",
@@ -40,7 +48,7 @@ const projects = [
   {
     name: "CogniCents",
     description:
-      "Financial data and equity research analyzer using AWS Sagemaker, BloombergGPT, Fidelity API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles.",
+      "Equity research and financial data analyzer using AWS Sagemaker, BloombergGPT, Verbwire API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles.",
     image: "/cognicents.png",
     github: "https://github.com/melvinhe/Cogni-Cents",
     link: "https://devpost.com/software/cognicents",
@@ -53,6 +61,14 @@ const projects = [
     github: "https://github.com/melvinhe/C-projects/tree/main/cachio",
     link: "",
   },
+  /*{
+    name: "StickySign",
+    description:
+      "HackHarvard Accessability award-winning IoT gaming environment built using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language (ASL).",
+    image: "/jara.gif",
+    github: "https://github.com/melvinhe/Cogni-Cents",
+    link: "https://devpost.com/software/cognicents",
+  },*/
 ];
 
 const ProjectsSection = () => {
