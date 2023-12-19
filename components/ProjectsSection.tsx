@@ -61,14 +61,22 @@ const projects = [
     github: "https://github.com/melvinhe/C-projects/tree/main/cachio",
     link: "",
   },
-  /*{
-    name: "StickySign",
+  {
+    name: "Breast Cancer BLR Machine Learning Classifier",
     description:
-      "HackHarvard Accessability award-winning IoT gaming environment built using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language (ASL).",
-    image: "/jara.gif",
-    github: "https://github.com/melvinhe/Cogni-Cents",
-    link: "https://devpost.com/software/cognicents",
-  },*/
+      "Implemented Binary Logistic Regression (BLR) with Tikhonov regularization (L2 norm) and cross-validation to perform classification to predict whether or not a given patient has breast cancer based on health data with over 96% accuracy.",
+    image: "/blr_tikhonov.png",
+    github: "https://github.com/melvinhe/python-projects/tree/main/machine-learning",
+    link: "https://github.com/melvinhe/python-projects/",
+  },
+  {
+    name: "StickySign 🤟",
+    description:
+      "IoT environment using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language.",
+    image: "/StickySign.png",
+    github: "https://github.com/melvinhe/Sticky-Sign",
+    link: "https://devpost.com/software/stickysign",
+  },
 ];
 
 const ProjectsSection = () => {
