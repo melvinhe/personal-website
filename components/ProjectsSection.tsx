@@ -38,6 +38,14 @@ const projects = [
     link: "https://github.com/melvinhe/C-projects/tree/main/raytracing",
   },
   {
+    name: "CogniCents",
+    description:
+      "Financial data and equity research analyzer using AWS Sagemaker, BloombergGPT, Fidelity API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles.",
+    image: "/cognicents.png",
+    github: "https://github.com/melvinhe/Cogni-Cents",
+    link: "https://devpost.com/software/cognicents",
+  },
+  {
     name: "Caching I/O",
     description:
       "Implemented a single slot cache in C to reduce the number of system calls (i.e., buffered read, write, flush) to optimize database system performance to within 5x of stdio's runtime performance.",
