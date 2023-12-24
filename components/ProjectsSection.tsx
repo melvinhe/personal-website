@@ -32,7 +32,7 @@ const projects = [
   {
     name: "Jara Unit",
     description:
-      "IoT-enabled, crank & solar-powered educational device built for children globally in low-income regions like Nepal. Won Develop For Good 2023 Summit's Most Creative & Most Impactful award.",
+      "IoT-enabled, crank & solar-powered educational device built for children globally in low-income regions like Nepal. Won Develop For Good 2023 Summit's Most Creative award & Most Impactful award.",
     image: "/jara.gif",
     github: "https://www.developforgood.org/",
     link: "https://www.joinjara.com/",
@@ -46,9 +46,16 @@ const projects = [
     link: "https://github.com/melvinhe/C-projects/tree/main/raytracing",
   },
   {
+    name: "HealthChain",
+    description:
+      "Easy-A x Polkadot Harvard 2023 Hackathon award-winning blockchain healthcare and electronic health record data solution built in Rust, incorporating a smart contract developed using the Gear framework and deployed on the Vara network.",
+    image: "/healthchain.png",
+    github: "https://github.com/melvinhe/HealthChain",
+  },
+  {
     name: "CogniCents",
     description:
-      "Equity research and financial data analyzer using AWS Sagemaker, BloombergGPT, Verbwire API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles.",
+      "Equity research and financial data analyzer using AWS Sagemaker, BloombergGPT, Verbwire API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles. Submitted to HackPrinceton Spring 2023, winning Financial Hack Finalist award.",
     image: "/cognicents.png",
     github: "https://github.com/melvinhe/Cogni-Cents",
     link: "https://devpost.com/software/cognicents",
@@ -72,7 +79,7 @@ const projects = [
   {
     name: "StickySign 🤟",
     description:
-      "IoT environment using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language.",
+      "IoT environment using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language. Project submitted to HackHarvard 2022, winning top three prize.",
     image: "/StickySign.png",
     github: "https://github.com/melvinhe/Sticky-Sign",
     link: "https://devpost.com/software/stickysign",

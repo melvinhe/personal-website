@@ -65,7 +65,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, I'm Melvin He! I enjoy solving the most interesting problems, and I do it with the use of code!
+              Hi, I'm Melvin He! I enjoy solving challenging problems, and I do it with the use of code!
 
               I'm a junior at Brown University, where I'm studying Computer Science.
               In particular, I love working with AI and Systems,
