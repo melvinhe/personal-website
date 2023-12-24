@@ -79,7 +79,7 @@ const projects = [
   {
     name: "StickySign 🤟",
     description:
-      "IoT environment using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language. Project submitted to HackHarvard 2022, winning top three prize.",
+      "IoT environment using OpenCV, 3D projectors, Python scripts, and Sticky Notes to host an AR arena that gamifies learning American Sign Language. Project submitted to HackHarvard 2022, winning top three prize in Accessibility.",
     image: "/StickySign.png",
     github: "https://github.com/melvinhe/Sticky-Sign",
     link: "https://devpost.com/software/stickysign",
