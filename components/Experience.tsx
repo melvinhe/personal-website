@@ -83,21 +83,22 @@ const backgroundInfo = [
 
 
 const Experience = () => {
-    const [selectedIndex, setSelectedIndex] = useState(0);
+
     const [currExp, setCurrExp] = useState(backgroundInfo[0]);
+    const [selectedIdx, setSelectedIdx] = useState(0); // Track the selected index
 
     /**
      * onClick function that handles setting the new current experience
      * @param name - name of the company to update description 
      */
-    const handleClick = (name: string, index: number) => {
-        setSelectedIndex(index);
-        for (let i = 0; i < backgroundInfo.length; i++) {
-            if (name === backgroundInfo[i].name) {
-                setCurrExp(backgroundInfo[i]);
+    const handleClick = (name: string) => {
+        for (let index = 0; index < backgroundInfo.length; index++) {
+            if (name === backgroundInfo[index].name) {
+                setCurrExp(backgroundInfo[index]);
+                setSelectedIdx(index);
             }
         }
-    };
+    }
 
     return (
         <section id="experience" className="max-w-containerxs mx-auto py-25 lgl:py-24 px-4">
@@ -107,21 +108,22 @@ const Experience = () => {
             </h1>
             <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
                 <ul className="md:w-36 flex flex-col">
-                    {backgroundInfo.map((exp, indx) => (
-                        <div key={indx}>
-                            <li
-                                onClick={() => handleClick(exp.name, indx)}
-                                className={`border-l-2 border-l-sky-400 bg-transparent ${
-                                    selectedIndex === indx ? 'bg-[#112240] text-white' : 'hover:bg-[#112240] hover:text-white'
-                                } py-3 text-sm cursor-pointer duration-200 px-8 font-medium text-base flex gap-2 whitespace-normal`}
-                            >
-                                {exp.name}
-                            </li>
-                        </div>
-                    ))}
+                    {backgroundInfo.map((exp, indx) => {
+                        return (
+                            <div key={indx}>
+                                <li 
+                                    onClick={() => handleClick(exp.name)}
+                                    className={`border-l-2 ${selectedIdx === indx ? 'border-l-sky-400 bg-[#112240] text-white' : 'border-l-sky-400 bg-transparent hover:bg-[#112240] hover:text-white'} py-3 text-sm
+                                    cursor-pointer duration-200 px-8 font-medium text-base flex gap-2 whitespace-normal`}
+                                >
+                                    {exp.name}
+                                </li>
+                            </div>
+                        )
+                    })}
                 </ul>
                 <ExperienceBD currExp={currExp}/>
-            </div>   
+            </div> 
         </section>
     )
 }
