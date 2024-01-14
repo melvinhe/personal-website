@@ -26,7 +26,7 @@ const backgroundInfo = [
         duration: "July 2021 - Aug 2022",
         description: [
             "I worked on a DevOps team on a software data visualization solution for a Raman Spectrometer chemical instrument device, contributing with launching AWS cloud resources, configuring Github Actions CI/CD pipelines, and designing a unit/manual testing framework using Model XML/SPC chemical simulations.",
-            "I designed and built a frontend responsive scheduling interface from scratch for the AerosolSense Sampler (an in-air COVID/pathogen detector) using BootstrapUI framework and used a BeagleBone, C++, and electrical circuits to integrate the machine's hardware components with its scheduling microservice.",
+            "I designed and built a frontend responsive scheduling interface from scratch for the AerosolSense Sampler (an in-air COVID/pathogen detector) using BootstrapUI framework and used a BeagleBone, C++, and electrical circuits to integrate the machine's hardware components with its scheduling API.",
         ],
         link: "https://www.thermofisher.com/"
 
