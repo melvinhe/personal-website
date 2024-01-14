@@ -15,7 +15,7 @@ const backgroundInfo = [
         name: "Fidelity Investments",
         duration: "June 2023 - August 2023",
         description: [
-            "I worked on an agile development team to migrate Fidelity Institutional's JSP-based website to Angular with Sitecore as a CMS, contributing signficantly to ETF bricklet design, RESTful API development, Jenkins & Terraform CI/CD pipelines, cloud architecture, and unit/integration testing.",
+            "I worked on an agile development team to migrate Fidelity Institutional's JSP-based website to Angular with Sitecore as a CMS, contributing to ETF bricklet design, RESTful API development, Jenkins & Terraform CI/CD pipelines, cloud architecture, and unit/integration testing.",
             "Through rotational roles, I also developed APIs for SwiftUI blockchain app for Fidelity Labs (Fidelity's startup incubator) as well as assisted with quantitative equity trading and UI/UX platform design with Fidelity Capital Markets (Fidelity's innovative trading arm)."
         ],
         link: "https://institutional.fidelity.com/",
