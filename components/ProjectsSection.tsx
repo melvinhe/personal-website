@@ -53,6 +53,13 @@ const projects = [
     github: "https://github.com/melvinhe/HealthChain",
   },
   {
+    name: "Metaverse FinVR Viz",
+    description:
+      "Created VR financial data story visualizations and conducted user experience research using NASA Task Load Index on Meta Quest 2. Gave presentation and interactive metaverse demos for Brown 2023 Spring Research Symposium and ADOCH.",
+    image: "/finvr-viz.png",
+    link: "https://finvr-viz.s3.amazonaws.com/FinVRViz.pdf",
+  },
+  {
     name: "CogniCents",
     description:
       "Equity research and financial data analyzer using AWS Sagemaker, BloombergGPT, Verbwire API, and DistillBERT LLMs to give ticker visualization and sentiment analysis on user-inputted 10-Q reports, stock market trends, and real-time news articles. Submitted to HackPrinceton Spring 2023, winning Financial Hack Finalist award.",
