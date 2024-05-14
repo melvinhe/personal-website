@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/melvinhe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://melvin-he.dev
+  * I am melvinhe (https://keybase.io/melvinhe) on keybase.
+  * I have a public key ASAVkWuICDkfRjJMN7LgRmEW-uR8AlNQVzjY6-mAUaL_8Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012058c8d8e2ec9c87fd99371cd955565c1978d8ec35c1330c2c91db664e252c0d390a",
+      "host": "keybase.io",
+      "kid": "012015916b8808391f46324c37b2e0466116fae47c0253505738d8ebe98051a2fff10a",
+      "uid": "0f149dd9de8628dc2025ca2c93f7e119",
+      "username": "melvinhe"
+    },
+    "merkle_root": {
+      "ctime": 1715656328,
+      "hash": "c1f2e7f202d22e4a75b944a21e526c78c1cb711c648350d45b955af644a7bb02d8b356acc123891a119802c542d1dc8b300fdecff38c15453637860a47d1b4ea",
+      "hash_meta": "e514e0a24cc86e2f1ec5cd9b07b311aebfc1f0fba2fa249a453f3d8059f1ac6d",
+      "seqno": 25722136
+    },
+    "service": {
+      "entropy": "f3o1Q/jD2Wu+QXUSg1j7iHCe",
+      "hostname": "melvin-he.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.8"
+  },
+  "ctime": 1715656455,
+  "expire_in": 504576000,
+  "prev": "7b1f97b6d92ff658cab28e10fd3d11fccd0d7e877f4f22e15dfec4888a669ced",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFZFriAg5H0YyTDey4EZhFvrkfAJTUFc42OvpgFGi//EKp3BheWxvYWTESpcCEMQgex+Xttkv9ljKso4Q/T0R/M0Nfod/TyLhXf7EiIpmnO3EIBfUe+jVB+1PJ0DvtVs9cUpHVw3YyIUZI0lhG3RDLs0hAgHCo3NpZ8RATqrJ9MUP1CiD7edh5kscriAwjJ2T0XECgL0iNyq1KmYZrHEIF59rRmykI3uToUg3LARUnQHp58FcowNfLwPlCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFoSs12HHo7TvLI+qq8kfY6R+JojRolWqkZS4yt0pqpQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/melvinhe
+
+==================================================================
